@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
         "endereco": {
             "rua": '16',
             "bairro": 'Zona verde 3',
-            "cidade": 'Luanda'
+            "cidade": 'Luanda',
+            "Pais": 'Angola'
         }
     }
     res.send(x)
